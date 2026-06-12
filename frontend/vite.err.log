@@ -1,0 +1,201 @@
+[2m1:32:50 am[22m [31m[1m[vite][22m[39m Pre-transform error: C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\src\pages\Login.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+[0m [90m 48 |[39m   }
+ [90m 49 |[39m
+[31m[1m>[22m[39m[90m 50 |[39m [36mexport[39m [36mdefault[39m [36mfunction[39m [33mLogin[39m() {
+ [90m    |[39m [31m[1m^[22m[39m
+ [90m 51 |[39m   [36mconst[39m [email[33m,[39m setEmail] [33m=[39m useState([32m'admin@crm.com'[39m)[33m;[39m
+ [90m 52 |[39m   [36mconst[39m [password[33m,[39m setPassword] [33m=[39m useState([32m'admin123'[39m)[33m;[39m
+ [90m 53 |[39m   [36mconst[39m [error[33m,[39m setError] [33m=[39m useState([32m''[39m)[33m;[39m[0m
+[2m1:32:51 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\src\pages\Login.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+[0m [90m 48 |[31m   }
+ [90m 49 |[31m
+[31m[1m>[22m[31m[90m 50 |[31m [36mexport[31m [36mdefault[31m [36mfunction[31m [33mLogin[31m() {
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 51 |[31m   [36mconst[31m [email[33m,[31m setEmail] [33m=[31m useState([32m'admin@crm.com'[31m)[33m;[31m
+ [90m 52 |[31m   [36mconst[31m [password[33m,[31m setPassword] [33m=[31m useState([32m'admin123'[31m)[33m;[31m
+ [90m 53 |[31m   [36mconst[31m [error[33m,[31m setError] [33m=[31m useState([32m''[31m)[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/LOQ/OneDrive/Desktop/Astrologer CRM/astrologer-crm/frontend/src/pages/Login.tsx[39m:50:0
+[33m  48 |    }
+  49 |  
+  50 |  export default function Login() {
+     |  ^
+  51 |    const [email, setEmail] = useState('admin@crm.com');
+  52 |    const [password, setPassword] = useState('admin123');[39m
+      at constructor (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12888:18)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12764:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13314:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12117:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12103:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9189:18)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13462:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12420:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13461:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13924:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9419:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13845:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9402:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12895:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:261:32)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:189:28
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:113:33
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:287:14)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
+[2m1:32:51 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\src\pages\Login.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+[0m [90m 48 |[31m   }
+ [90m 49 |[31m
+[31m[1m>[22m[31m[90m 50 |[31m [36mexport[31m [36mdefault[31m [36mfunction[31m [33mLogin[31m() {
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 51 |[31m   [36mconst[31m [email[33m,[31m setEmail] [33m=[31m useState([32m'admin@crm.com'[31m)[33m;[31m
+ [90m 52 |[31m   [36mconst[31m [password[33m,[31m setPassword] [33m=[31m useState([32m'admin123'[31m)[33m;[31m
+ [90m 53 |[31m   [36mconst[31m [error[33m,[31m setError] [33m=[31m useState([32m''[31m)[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/LOQ/OneDrive/Desktop/Astrologer CRM/astrologer-crm/frontend/src/pages/Login.tsx[39m:50:0
+[33m  48 |    }
+  49 |  
+  50 |  export default function Login() {
+     |  ^
+  51 |    const [email, setEmail] = useState('admin@crm.com');
+  52 |    const [password, setPassword] = useState('admin123');[39m
+      at constructor (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12888:18)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12764:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13314:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12117:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12103:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9189:18)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13462:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12420:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13461:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13924:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9419:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13845:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9402:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12895:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:261:32)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:189:28
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:113:33
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:287:14)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
+[2m1:33:10 am[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\src\pages\Login.tsx: 'import' and 'export' may only appear at the top level. (50:0)
+
+[0m [90m 48 |[31m   }
+ [90m 49 |[31m
+[31m[1m>[22m[31m[90m 50 |[31m [36mexport[31m [36mdefault[31m [36mfunction[31m [33mLogin[31m() {
+ [90m    |[31m [31m[1m^[22m[31m
+ [90m 51 |[31m   [36mconst[31m [email[33m,[31m setEmail] [33m=[31m useState([32m'admin@crm.com'[31m)[33m;[31m
+ [90m 52 |[31m   [36mconst[31m [password[33m,[31m setPassword] [33m=[31m useState([32m'admin123'[31m)[33m;[31m
+ [90m 53 |[31m   [36mconst[31m [error[33m,[31m setError] [33m=[31m useState([32m''[31m)[33m;[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/LOQ/OneDrive/Desktop/Astrologer CRM/astrologer-crm/frontend/src/pages/Login.tsx[39m:50:0
+[33m  48 |    }
+  49 |  
+  50 |  export default function Login() {
+     |  ^
+  51 |    const [email, setEmail] = useState('admin@crm.com');
+  52 |    const [password, setPassword] = useState('admin123');[39m
+      at constructor (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12888:18)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseStatementListItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12764:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:61)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseBlock (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13314:10)
+      at TypeScriptParserMixin.parseFunctionBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12117:24)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12103:10)
+      at TypeScriptParserMixin.parseFunctionBodyAndFinish (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9189:18)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13462:12
+      at TypeScriptParserMixin.withSmartMixTopicForbiddingContext (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12420:14)
+      at TypeScriptParserMixin.parseFunction (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13461:10)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13924:19)
+      at TypeScriptParserMixin.parseExportDefaultExpression (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9419:18)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13845:25)
+      at TypeScriptParserMixin.parseExport (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9402:20)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12895:27)
+      at TypeScriptParserMixin.parseStatementContent (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:9525:18)
+      at TypeScriptParserMixin.parseStatementLike (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12784:17)
+      at TypeScriptParserMixin.parseModuleItem (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12761:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13333:36)
+      at TypeScriptParserMixin.parseBlockBody (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:13326:10)
+      at TypeScriptParserMixin.parseProgram (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12639:10)
+      at TypeScriptParserMixin.parseTopLevel (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:12629:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14505:25)
+      at TypeScriptParserMixin.parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:10143:18)
+      at parse (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\parser\lib\index.js:14539:38)
+      at parser (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\parser\index.js:41:34)
+      at parser.next (<anonymous>)
+      at normalizeFile (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\normalize-file.js:51:37)
+      at normalizeFile.next (<anonymous>)
+      at run (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transformation\index.js:22:50)
+      at run.next (<anonymous>)
+      at transform (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\transform.js:22:33)
+      at transform.next (<anonymous>)
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:261:32)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:189:28
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\@babel\core\lib\gensync-utils\async.js:67:7
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:113:33
+      at step (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:287:14)
+      at C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:273:13
+      at async.call.result.err.err (C:\Users\LOQ\OneDrive\Desktop\Astrologer CRM\astrologer-crm\frontend\node_modules\gensync\index.js:223:11)
